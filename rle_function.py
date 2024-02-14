@@ -24,3 +24,27 @@ def in_short(mystring):
 
 string = input()
 print(in_short(string))
+
+
+'''
+enumerate - функция для перебора элементов последовательности - списка, кортежа или строки одновременно с их индексами!
+______________________________________________
+1 sample
+fruits = ['apple', 'banana', 'cherry']
+
+for index, fruit in enumerate(fruits):
+    print(index, fruit)
+
+
+0 apple
+1 banana
+2 cherry
+______________________________________________
+2 sample
+languages = ['Python', 'java', 'c++']
+lang_dict = dict(enumerate(languages))
+print(lang_dict) #словарь, где ключи - индексы, значения - элементы
+
+{0: 'Python', 1: 'Java', 2: 'JavaScript', 3: 'C++'}
+
+'''
